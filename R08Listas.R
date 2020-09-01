@@ -1,4 +1,4 @@
-#Notebook criado para demonstração de Listas
+#Notebook criado para demonstracao de Listas
 
 #List str
 liststr = list('Bem-vindo', 'ao estudo', 'de R')
@@ -14,12 +14,12 @@ listint
 floatlist = list(1.90, 45.3, 300.5)
 floatlist
 
-#Lista com némeros complexos
+#Lista com numeros complexos
 compllist = list(5.2+3i, 2.4+8i)
 compllist
 
 
-#List com valores Lógicos
+#List com valores Logicos
 logiclist = list(T, F, F)
 logiclist
 
@@ -31,7 +31,7 @@ compostlist
 lista1 <- list(1:10, c("Maria", "Selvino", "Sther"), rnorm(10))
 lista1
 
-?rnorm #função de sitribuição normal
+?rnorm #funcao de distribuicao normal
 
 
 #Fatiando Listas - Slicing
@@ -88,7 +88,7 @@ lista3 <- c(lista1, lista2)
 lista3
 
 
-#Transformação de vetores em lista
+#Transformacao de vetores em lista
 v = c(1:3)
 v
 l = as.list(v)
