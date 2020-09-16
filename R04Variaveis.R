@@ -10,7 +10,7 @@ sqrt(var1)
 var2 = as.integer(var1)
 var2
 mode(var2)
-typeof(var2) #etermines the (R internal) type or storage mode of any object
+typeof(var2)
 help("typeof")
 
 var3 = c("seg", "ter", "qua")
