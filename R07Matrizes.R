@@ -11,7 +11,7 @@ matrix (c(20,21,22,23,24,25), nc = 6)
 
 help("matrix")
 
-# !Matrizes sempre terão um número de elementos sejam multiplos ou submultiplos do numero de linhas
+# !Matrizes sempre terão um número de elementos multiplos ou submultiplos do numero de linhas
 matrix (c(1,2,3,4,5), nr = 2)
 matrix (c(1,2,3,4,5), nc = 3)
 matrix (c(1,2,3,4,5,6), nr = 2)
