@@ -4,8 +4,7 @@
 # Dataset: Berkeley Earth
 # http://berkeleyearth.org/data (coleta temperatura do mundo interio nos ultimos 100 anos)
 getwd()
-setwd("C://Users//stell//OneDrive//�rea de Trabalho Meu Desktop")
-install.packages("dtplyr")
+setwd(" ")
 install.packages("readr")
 install.packages("data.table")
 library(readr)
@@ -41,33 +40,32 @@ crt <- subset(crt, Year %in% c(1796,1846,1896,1946,1996,2012)) #Subset anos de i
 recf <- subset(cidadesBrasil, City=='Recife')
 recf <- subset(recf,Year %in% c(1796,1846,1896,1946,1996,2012))
 
-
-#Visualiza��o
+#Plot
 ppalmas <- ggplot(plm, aes(x = (Month), y = AverageTemperature, color = as.factor(Year))) +
   geom_smooth(se = FALSE,fill = NA, size = 2) +
   theme_light(base_size = 20) +
   xlab("Mes")+
-  ylab("Temperatura M�dia") +
+  ylab("Temperatura Média") +
   scale_color_discrete("") +
-  ggtitle("Temperatura M�dia ao longo dos anos em Palmas") +
+  ggtitle("Temperatura Média ao longo dos anos em Palmas") +
   theme(plot.title = element_text(size = 18))
 
 pcuritiba <- ggplot(crt, aes(x = (Month), y = AverageTemperature, color = as.factor(Year))) +
   geom_smooth(se = FALSE,fill = NA, size = 2) +
   theme_light(base_size = 20) +
   xlab("Mes")+
-  ylab("Temperatura") +
+  ylab("Temperatura Méida") +
   scale_color_discrete("") +
-  ggtitle("Temperatura M�dia ao longo dos anos em Curitiba") +
+  ggtitle("Temperatura Média ao longo dos anos em Curitiba") +
   theme(plot.title = element_text(size = 18))
 
 precife <- ggplot(recf, aes(x = (Month), y = AverageTemperature, color = as.factor(Year))) +
   geom_smooth(se = FALSE,fill = NA, size = 2) +
   theme_light(base_size = 20) +
   xlab("Mes")+
-  ylab("Temperatura M�dia") +
+  ylab("Temperatura Média") +
   scale_color_discrete("") +
-  ggtitle("Temperatura M�dia ao longo dos anos em Recife") +
+  ggtitle("Temperatura Média ao longo dos anos em Recife") +
   theme(plot.title = element_text(size = 18))
 
 

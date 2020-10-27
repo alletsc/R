@@ -95,7 +95,7 @@ Gauge <-  gvisGauge(CityPopularity,
 plot(Gauge)
 
 
-# Mapas
+# Mapas #erro corrigir
 Intensity <- gvisIntensityMap(df)
 plot(Intensity)
 

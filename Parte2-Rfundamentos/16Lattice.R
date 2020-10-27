@@ -1,7 +1,6 @@
 # Lattice
 
-# O pacote Lattice é um sistema de visualização de dados 
-# de alto nível poderoso e elegante, com ênfase em dados multivariados. 
+# O pacote Lattice é um sistema de visualização de dados de alto nível poderoso e elegante, com ênfase em dados multivariados. 
 
 # Na criação de gráficos, condições e agrupamentos são 2 conceitos
 # importantes, que nos permitem compreender mais facilmente

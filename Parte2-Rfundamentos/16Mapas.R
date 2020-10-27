@@ -54,5 +54,5 @@ dygraph(nhtemp, main = "Temperaturas") %>%
 
 #rmaps
   
-  
+
   
